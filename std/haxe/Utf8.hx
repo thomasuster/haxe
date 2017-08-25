@@ -62,7 +62,7 @@ class Utf8 {
 		Encode the input ISO string into the corresponding UTF8 one.
 	**/
 	public static function encode( s : String ) : String {
-		throw "Not implemented";
+		throw "Not implemented UTF8-encode";
 	}
 
 	/**
@@ -70,7 +70,7 @@ class Utf8 {
 		Throw an exception if a given UTF8 character is not supported by the decoder.
 	**/
 	public static function decode( s : String ) : String {
-		throw "Not implemented";
+		throw "Not implemented UTF8-decode";
 	}
 
 	/**

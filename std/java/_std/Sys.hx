@@ -167,7 +167,7 @@ using haxe.Int64;
 	public static function getChar( echo : Bool ) : Int
 	{
 		//TODO
-		return throw "Not implemented";
+		return throw "Not implemented getChar";
 	}
 
 	public static function stdin() : haxe.io.Input

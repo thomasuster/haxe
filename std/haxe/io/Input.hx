@@ -48,9 +48,9 @@ class Input {
 	**/
 	public function readByte() : Int {
 	#if cpp
-		throw "Not implemented";
+		throw "Not implemented INPUT-1";
 	#else
-		return throw "Not implemented";
+		return throw "Not implemented INPUT-2";
 	#end
 	}
 

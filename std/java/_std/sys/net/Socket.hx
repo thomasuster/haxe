@@ -155,12 +155,12 @@ class Socket {
 
 	public function waitForRead() : Void
 	{
-		throw "Not implemented";
+		throw "Not implemented waitForRead";
 	}
 
 	public function setBlocking( b : Bool ) : Void
 	{
-		throw "Not implemented";
+		throw "Not implemented setBlocking";
 	}
 
 	public function setFastSend( b : Bool ) : Void
@@ -172,7 +172,7 @@ class Socket {
 
 	public static function select(read : Array<Socket>, write : Array<Socket>, others : Array<Socket>, ?timeout : Float) : { read: Array<Socket>,write: Array<Socket>,others: Array<Socket> }
 	{
-		throw "Not implemented";
+		throw "Not implemented select";
 		return null;
 	}
 }

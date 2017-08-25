@@ -25,16 +25,16 @@ package hl.types;
 class ArrayAccess {
 
 	public function getDyn( pos : Int ) : Dynamic {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return 0;
 	}
 
 	public function setDyn( pos : Int, v : Dynamic ) {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 	}
 
 	public function blit( pos : Int, src : ArrayAccess, srcpos : Int, len : Int ) : Void {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 	}
 
 }
@@ -46,58 +46,58 @@ class ArrayBase extends ArrayAccess {
 
 
 	public function pushDyn( v : Dynamic ) : Int {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return 0;
 	}
 
 	public function popDyn() : Null<Dynamic> {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return null;
 	}
 
 	public function shiftDyn() : Null<Dynamic> {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return null;
 	}
 
 	public function unshiftDyn( v : Dynamic ) : Void {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 	}
 
 	public function insertDyn( pos : Int, v : Dynamic ) : Void {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 	}
 
 	public function removeDyn( v : Dynamic ) : Bool {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return false;
 	}
 
 	public function sortDyn( f : Dynamic -> Dynamic -> Int ) : Void {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 	}
 
 	public function slice( pos : Int, ?end : Int ) : ArrayBase{
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return null;
 	}
 
 	public function splice( pos : Int, len : Int ) : ArrayBase{
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return null;
 	}
 
 	public function join( sep : String ) : String {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return null;
 	}
 
 	public function reverse() {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 	}
 
 	public function toString() : String {
-		throw "Not implemented";
+		throw "Not implemented ArrayBase";
 		return null;
 	}
 
